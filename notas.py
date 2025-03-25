@@ -9,4 +9,8 @@ pyautogui.press('enter')
 
 time.sleep(3)
 
-pyautogui.typewrite('Este é um exemplo de automação de notas com Python e PyAutoGUI.', interval=0.1)
+pyautogui.typewrite(
+    '''
+        Este é um exemplo de automação de notas com Python e PyAutoGUI.
+    ''',
+    interval=0.1)
